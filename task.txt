@@ -1,0 +1,16 @@
+Nutreetion:
+We have completed PDF2 in both languages(Alignment  issue we are working on it)
+
+Kamel asked some new changes in the pdf  and front end so we are working on it
+
+
+IBA:
+Sign up and forgot  password new enhancement from blake so we delivered the changes to blake 
+
+But blake asked few text change from it so we are working on it
+
+
+
+Asahiwebsite:
+Review anish task
+Currently myself and anish testing the ticket aw-292 (Asahi Site - Go Live checklist)

@@ -1,0 +1,61 @@
+metric-cm  and kg
+imperial-inches  and lb  or  pounds
+===================================
+1. Recommend you text add for recipes.-In progress
+
+2. Serving  name we  need to change it for french (Kamel shared) and display it in the PDF-Working Fine
+
+3.spelling of sédentaire is wrong for both french PDF -bhuvana need to fix in PDF 1
+
+4. Kamel shared Feedback document which contain below bugs
+    a) Still seeing the letters B,L,S,D with old instructions-PDF 1-Working  fine
+    b)Information page: I select metric for France and it gives me the height in imperial units…Working Fine
+
+and objectif should be only “Perte de poids”. Please make sure each objectif has been updated as discussed last week-bhuvana needs to fix
+
+   c)Inverse the font for each. The large bold font is for the title at the top. For page 10 only, remove LA DIETA MEXICANA: The Basics Recipes-Working fine
+
+   d)Instructions in dieta Mexicana has not been updated for PDF2 both langauge-PDF 1 english is not updated the latest instruction
+
+Bugs:
+Instruction text change inPDF1 nad 2 in english
+Examplepage:Veggie speling mistake
+
+==============================
+
+Piece = Morceau
+Scoop = Dose
+
+Serving = Portion
+
+Slice = Tranche
+
+Tablespoon = Cuillère à soupe
+
+Teaspoon = Cuillère à café
+
+=========================
+1. double caloriesForFoodItem = 200;
+
+2. double caloriesOfRecipe = userDetailsRequestDTO.getIntakeCalorie() - caloriesForFoodItem;
+=1726-200=1526
+
+3. double diffPercentage = caloriesOfRecipe % 300;
+1526%300=100
+
+4. caloriesOfRecipe = caloriesOfRecipe - diffPercentage;
+1526-100=1426
+
+5. caloriesForFoodItem = caloriesForFoodItem + diffPercentage;
+200+100=300
+
+6.double caloriesPerMealRecipe = caloriesOfRecipe / 3;
+  double intakeFoodQuantity = 
+
+1526/3=508.6
+
+7. BigDecimal.valueOf((caloriesPerMealRecipe * {dbGrams}) / {dbCalories})
+            .setScale(0, RoundingMode.HALF_UP).doubleValue();
+508.6*260.5/51=132490.3/51=2597
+
+======================================================

@@ -1,0 +1,8 @@
+device_name:emulator-5554
+email:nakash28@live.com
+password:olive1234
+post_title:asdfasdf
+post_price:10
+post_category:Furniture
+post_zip:33101
+filename:image.jpg
