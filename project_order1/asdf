@@ -1,7 +1,0 @@
-{
-  "platformName": "Android",
-  "deviceName": "emulator-5554",
-  "appPackage": "com.offerup",
-  "appActivity": "com.offerup.android.splash.SplashActivity",
-  "autoGrantPermissions": true
-}
